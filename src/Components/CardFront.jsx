@@ -1,5 +1,6 @@
 import React from "react";
+import { Box } from "@mui/material";
 function CardFront() {
-  return <h1>Just For Test</h1>
+  return <Box></Box>
 }
 export default CardFront;
