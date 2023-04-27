@@ -3,6 +3,8 @@ import { Box } from "@mui/material";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import FormControl from "@mui/material/FormControl";
+import Typography from "@mui/material/Typography";
+import Link from "@mui/material/Link";
 function CardFront() {
   return (
     <Box className={"card_front"}>
@@ -15,6 +17,9 @@ function CardFront() {
           SUBMIT
         </Button>
       </FormControl>
+      <Link href="#" underline="none" sx={{ color: "cadetblue" }}>
+        You Have Account ?
+      </Link>
     </Box>
   );
 }
