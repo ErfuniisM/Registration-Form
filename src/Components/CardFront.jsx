@@ -2,11 +2,11 @@ import React from "react";
 import { Box } from "@mui/material";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
+import FormControl from "@mui/material/FormControl";
 function CardFront() {
   return (
     <Box className={"card_front"}>
-      <Box className={"form-style"}>
+      <FormControl className={"form-style"}>
         <TextField label="Username" />
         <TextField label="Email" />
         <TextField label="Password" />
@@ -14,7 +14,7 @@ function CardFront() {
         <Button variant="contained" color="secondary">
           SUBMIT
         </Button>
-      </Box>
+      </FormControl>
     </Box>
   );
 }
