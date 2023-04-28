@@ -8,6 +8,16 @@ import Link from "@mui/material/Link";
 function CardFront() {
   return (
     <Box className={"card_front"}>
+      <Typography
+        sx={{
+          color: "cadetblue",
+          fontWeight: "900",
+          fontFamily: "Dosis, sans-serif !important",
+          fontSize: "x-large",
+        }}
+      >
+        Join to My World!
+      </Typography>
       <FormControl className={"form-style"}>
         <TextField label="Username" />
         <TextField label="Email" />
